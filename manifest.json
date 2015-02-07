@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Smart Text Selection",
+    "version": "1.0.0",
+    "description": "Size of selected text counting",
+ 
+    "icons": {
+        "48": "imgs/48.png",
+        "128": "imgs/128.png"
+    },
+ 
+    "permissions": [
+        "clipboardWrite",
+        "clipboardRead", 
+        "storage",
+		"https://e.mail.ru/*",
+		"http://*/*",
+		"https://*/*",
+		"tabs",
+		 "contextMenus",
+		"<all_urls>"
+    ],
+ 
+    "background": {
+        "page": "background.html"
+    },
+ 
+    "browser_action": {
+        "default_title": "Smart Text Selection",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32_1": "imgs/32_1.png",
+            "32_2": "imgs/32_2.png"
+        }
+    }
+ }

@@ -2,7 +2,7 @@
     "manifest_version": 2,
  
     "name": "Smart Text Selection",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Size of selected text counting",
  
     "icons": {
@@ -30,8 +30,7 @@
         "default_title": "Smart Text Selection",
         "default_popup": "popup.html",
         "default_icon": {
-            "32_1": "imgs/32_1.png",
-            "32_2": "imgs/32_2.png"
+            "32": "imgs/32_1.png"
         }
     }
  }
